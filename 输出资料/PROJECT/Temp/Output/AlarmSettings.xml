@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AlarmSettings>
+  <AlarmClients>
+    <AlarmClient ClientID="BG.AlarmViewer" ServerID="" ServerPort="0" MaximumAlarmEvents="200" />
+    <AlarmClient ClientID="REALALARM.AlarmViewer2" ServerID="" ServerPort="0" MaximumAlarmEvents="200" />
+  </AlarmClients>
+  <AlarmServer ServerMode="Local" ServerPort="1000" MaximumAlarmEvents="100" />
+</AlarmSettings>

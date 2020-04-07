@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order0" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order1" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order2" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order3" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order4" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order5" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order6" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order7" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order8" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order9" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order10" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order11" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order12" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order13" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order14" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order15" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order16" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order17" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order18" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order19" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per0" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per1" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per2" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per3" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per4" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per5" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per6" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per7" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per8" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per9" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per10" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per11" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per12" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per13" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per14" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per15" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per16" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per17" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per18" />
+        <Item Target="Harmonic4UnitOne.Script.cs" Source="Tags.harmonic_order_per19" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

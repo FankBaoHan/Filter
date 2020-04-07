@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="SUPERDETAIL2.Text1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text6" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text7" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text9" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text10" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text11" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text12" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text13" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text14" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text15" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text16" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text17" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text18" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text19" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text20" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text27" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text32" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text33" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text34" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text35" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text36" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text38" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text41" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text42" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text43" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text44" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text45" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text46" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text47" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text48" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text49" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text50" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text51" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text52" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text53" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text54" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text31" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Text" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERDETAIL2.Button5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="SUPERDETAIL2.Text1" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text2" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text3" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text6" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text7" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text9" TargetProperty="Value" Source="Tags.dis_iga_f2" />
+        <Item Target="SUPERDETAIL2.Text10" TargetProperty="Value" Source="Tags.dis_igb_f2" />
+        <Item Target="SUPERDETAIL2.Text11" TargetProperty="Value" Source="Tags.dis_igc_f2" />
+        <Item Target="SUPERDETAIL2.Text12" TargetProperty="Value" Source="Tags.dis_igha_f2" />
+        <Item Target="SUPERDETAIL2.Text13" TargetProperty="Value" Source="Tags.dis_ighb_f2" />
+        <Item Target="SUPERDETAIL2.Text14" TargetProperty="Value" Source="Tags.dis_ighc_f2" />
+        <Item Target="SUPERDETAIL2.Text15" TargetProperty="Value" Source="Tags.thd_iga_f2" />
+        <Item Target="SUPERDETAIL2.Text16" TargetProperty="Value" Source="Tags.thd_igb_f2" />
+        <Item Target="SUPERDETAIL2.Text17" TargetProperty="Value" Source="Tags.thd_igc_f2" />
+        <Item Target="SUPERDETAIL2.Text18" TargetProperty="Value" Source="Tags.igvar_a_f2" />
+        <Item Target="SUPERDETAIL2.Text19" TargetProperty="Value" Source="Tags.igvar_b_f2" />
+        <Item Target="SUPERDETAIL2.Text20" TargetProperty="Value" Source="Tags.igvar_c_f2" />
+        <Item Target="SUPERDETAIL2.Text27" TargetProperty="Value" Source="Tags.VALUE_GRID_f2" />
+        <Item Target="SUPERDETAIL2.Text32" TargetProperty="Value" Source="Tags.DEVICE_TYPE_f2" />
+        <Item Target="SUPERDETAIL2.Text33" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text34" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text35" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text36" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text38" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text41" TargetProperty="Value" Source="Tags.dis_usha_f2" />
+        <Item Target="SUPERDETAIL2.Text42" TargetProperty="Value" Source="Tags.dis_ushb_f2" />
+        <Item Target="SUPERDETAIL2.Text43" TargetProperty="Value" Source="Tags.dis_ushc_f2" />
+        <Item Target="SUPERDETAIL2.Text44" TargetProperty="Value" Source="Tags.dis_iqla_f2" />
+        <Item Target="SUPERDETAIL2.Text45" TargetProperty="Value" Source="Tags.dis_iqlb_f2" />
+        <Item Target="SUPERDETAIL2.Text46" TargetProperty="Value" Source="Tags.dis_iqlc_f2" />
+        <Item Target="SUPERDETAIL2.Text47" TargetProperty="Value" Source="Tags.thd_ila_f2" />
+        <Item Target="SUPERDETAIL2.Text48" TargetProperty="Value" Source="Tags.thd_ilb_f2" />
+        <Item Target="SUPERDETAIL2.Text49" TargetProperty="Value" Source="Tags.thd_ilc_f2" />
+        <Item Target="SUPERDETAIL2.Text50" TargetProperty="Value" Source="Tags.VALUE_YEAR_f2" />
+        <Item Target="SUPERDETAIL2.Text51" TargetProperty="Value" Source="Tags.VALUE_MONTH_f2" />
+        <Item Target="SUPERDETAIL2.Text52" TargetProperty="Value" Source="Tags.VALUE_DAY_f2" />
+        <Item Target="SUPERDETAIL2.Text53" TargetProperty="Value" Source="Tags.VERNUM_f2" />
+        <Item Target="SUPERDETAIL2.Text54" TargetProperty="Value" Source="Tags.VERNUMLI_f2" />
+        <Item Target="SUPERDETAIL2.Text31" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Text" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERDETAIL2.Button5" TargetProperty="TextValue" Source="Tags.LID" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="SUPERDETAIL2.Button5" Source="-770777441_Normal.bmp" />
+        <Item Target="SUPERDETAIL2.Button5" Source="-770777441_Pressed.bmp" />
+        <Item Target="SUPERDETAIL2.Button5" Source="-770777441_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SUPERDETAIL2.Button5" TargetProperty="Actions" Source="UNITS" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>SUPERDETAIL2</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>94</ObjectsCount>
+          <ScreenName>SUPERDETAIL2</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

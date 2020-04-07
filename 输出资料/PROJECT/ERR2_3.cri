@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="ERR2_3.Button1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Button3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Button4" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text4" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text7" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text6" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text8" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text9" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text10" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text11" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text12" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text13" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Text14" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ERR2_3.Button5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="ERR2_3.Text" TargetProperty="Value" Source="Tags.err3_0_f2" />
+        <Item Target="ERR2_3.Text" TargetProperty="Foreground" Source="Tags.err3_0_f2" />
+        <Item Target="ERR2_3.Text" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text1" TargetProperty="Value" Source="Tags.err3_1_f2" />
+        <Item Target="ERR2_3.Text1" TargetProperty="Foreground" Source="Tags.err3_1_f2" />
+        <Item Target="ERR2_3.Text1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text2" TargetProperty="Value" Source="Tags.err3_3_f2" />
+        <Item Target="ERR2_3.Text2" TargetProperty="Foreground" Source="Tags.err3_3_f2" />
+        <Item Target="ERR2_3.Text2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text3" TargetProperty="Value" Source="Tags.err3_2_f2" />
+        <Item Target="ERR2_3.Text3" TargetProperty="Foreground" Source="Tags.err3_2_f2" />
+        <Item Target="ERR2_3.Text3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text4" TargetProperty="Value" Source="Tags.err3_4_f2" />
+        <Item Target="ERR2_3.Text4" TargetProperty="Foreground" Source="Tags.err3_4_f2" />
+        <Item Target="ERR2_3.Text4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text5" TargetProperty="Value" Source="Tags.err3_5_f2" />
+        <Item Target="ERR2_3.Text5" TargetProperty="Foreground" Source="Tags.err3_5_f2" />
+        <Item Target="ERR2_3.Text5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text7" TargetProperty="Value" Source="Tags.err3_6_f2" />
+        <Item Target="ERR2_3.Text7" TargetProperty="Foreground" Source="Tags.err3_6_f2" />
+        <Item Target="ERR2_3.Text7" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text6" TargetProperty="Value" Source="Tags.err3_0_f2" />
+        <Item Target="ERR2_3.Text6" TargetProperty="Foreground" Source="Tags.err3_0_f2" />
+        <Item Target="ERR2_3.Text6" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text8" TargetProperty="Value" Source="Tags.err3_1_f2" />
+        <Item Target="ERR2_3.Text8" TargetProperty="Foreground" Source="Tags.err3_1_f2" />
+        <Item Target="ERR2_3.Text8" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text9" TargetProperty="Value" Source="Tags.err3_3_f2" />
+        <Item Target="ERR2_3.Text9" TargetProperty="Foreground" Source="Tags.err3_3_f2" />
+        <Item Target="ERR2_3.Text9" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text10" TargetProperty="Value" Source="Tags.err3_2_f2" />
+        <Item Target="ERR2_3.Text10" TargetProperty="Foreground" Source="Tags.err3_2_f2" />
+        <Item Target="ERR2_3.Text10" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text11" TargetProperty="Value" Source="Tags.err3_4_f2" />
+        <Item Target="ERR2_3.Text11" TargetProperty="Foreground" Source="Tags.err3_4_f2" />
+        <Item Target="ERR2_3.Text11" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text12" TargetProperty="Value" Source="Tags.err3_5_f2" />
+        <Item Target="ERR2_3.Text12" TargetProperty="Foreground" Source="Tags.err3_5_f2" />
+        <Item Target="ERR2_3.Text12" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text13" TargetProperty="Value" Source="Tags.err3_6_f2" />
+        <Item Target="ERR2_3.Text13" TargetProperty="Foreground" Source="Tags.err3_6_f2" />
+        <Item Target="ERR2_3.Text13" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="ERR2_3.Text14" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="ERR2_3.Button5" TargetProperty="TextValue" Source="Tags.LID" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="ERR2_3.Button1" Source="-1433639887_Normal.bmp" />
+        <Item Target="ERR2_3.Button1" Source="-1433639887_Pressed.bmp" />
+        <Item Target="ERR2_3.Button1" Source="-1433639887_Disabled.bmp" />
+        <Item Target="ERR2_3.Button3" Source="1202820175_Normal.bmp" />
+        <Item Target="ERR2_3.Button3" Source="1202820175_Pressed.bmp" />
+        <Item Target="ERR2_3.Button3" Source="1202820175_Disabled.bmp" />
+        <Item Target="ERR2_3.Button4" Source="-919454490_Normal.bmp" />
+        <Item Target="ERR2_3.Button4" Source="-919454490_Pressed.bmp" />
+        <Item Target="ERR2_3.Button4" Source="-919454490_Disabled.bmp" />
+        <Item Target="ERR2_3.Button5" Source="-770777441_Normal.bmp" />
+        <Item Target="ERR2_3.Button5" Source="-770777441_Pressed.bmp" />
+        <Item Target="ERR2_3.Button5" Source="-770777441_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="ERR2_3.Button1" TargetProperty="Actions" Source="ERR2_3" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="ERR2_3.Button3" TargetProperty="Actions" Source="ERR2_2" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="ERR2_3.Button4" TargetProperty="Actions" Source="ERR2_1" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="ERR2_3.Button5" TargetProperty="Actions" Source="UNITS" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>ERR2_3</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>33</ObjectsCount>
+          <ScreenName>ERR2_3</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

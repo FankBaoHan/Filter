@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Flicker.Script.cs" Source="Tags.flickerState" />
+        <Item Target="Flicker.Script.cs" Source="Tags.flicker" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F1_VS_A_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F1_VS_A_L" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F1_FS_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F1_FS_L" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F1_TS_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F1_CS_A_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F1_CS_B_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F1_CS_C_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.err1_11" />
+        <Item Target="Flicker.Script.cs" Source="Tags.err1_12" />
+        <Item Target="Flicker.Script.cs" Source="Tags.err1_13" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F1_DS_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F2_VS_A_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F2_VS_A_L" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F2_FS_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F2_FS_L" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F2_TS_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F2_CS_A_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F2_CS_B_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F2_CS_C_H" />
+        <Item Target="Flicker.Script.cs" Source="Tags.err1_11_f2" />
+        <Item Target="Flicker.Script.cs" Source="Tags.err1_12_f2" />
+        <Item Target="Flicker.Script.cs" Source="Tags.err1_13_f2" />
+        <Item Target="Flicker.Script.cs" Source="Tags.F2_DS_H" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

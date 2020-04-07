@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="ALARMCONFIG.Text1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.AnalogNumeric1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.Text" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.AnalogNumeric" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.Text2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.AnalogNumeric2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.Text3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.AnalogNumeric3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.Text4" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.AnalogNumeric4" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.Text5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.AnalogNumeric5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.Text6" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.AnalogNumeric6" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="ALARMCONFIG.Button" TargetProperty="FontFamily" Source="MSYH.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="ALARMCONFIG.Text1" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="ALARMCONFIG.AnalogNumeric1" TargetProperty="Value" Source="Tags.F1_V_H" />
+        <Item Target="ALARMCONFIG.Text" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="ALARMCONFIG.AnalogNumeric" TargetProperty="Value" Source="Tags.F1_V_L" />
+        <Item Target="ALARMCONFIG.Text2" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="ALARMCONFIG.AnalogNumeric2" TargetProperty="Value" Source="Tags.F1_F_H" />
+        <Item Target="ALARMCONFIG.Text3" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="ALARMCONFIG.AnalogNumeric3" TargetProperty="Value" Source="Tags.F1_F_L" />
+        <Item Target="ALARMCONFIG.Text4" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="ALARMCONFIG.AnalogNumeric4" TargetProperty="Value" Source="Tags.F1_T_H" />
+        <Item Target="ALARMCONFIG.Text5" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="ALARMCONFIG.AnalogNumeric5" TargetProperty="Value" Source="Tags.F1_C_H" />
+        <Item Target="ALARMCONFIG.Text6" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="ALARMCONFIG.AnalogNumeric6" TargetProperty="Value" Source="Tags.F1_D_H" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="ALARMCONFIG.Button" Source="1853448282_Normal.bmp" />
+        <Item Target="ALARMCONFIG.Button" Source="1853448282_Pressed.bmp" />
+        <Item Target="ALARMCONFIG.Button" Source="1853448282_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>ALARMCONFIG</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>22</ObjectsCount>
+          <ScreenName>ALARMCONFIG</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

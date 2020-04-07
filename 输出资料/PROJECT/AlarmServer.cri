@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="AlarmServer.Filter1" TargetProperty="Action" Source="Tags.buzzer" Event="AlarmActive" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="AlarmServer.Filter1" TargetProperty="Action" Source="Tags.flickerState" Event="AlarmActive" Action="Set Tag" Param="" />
+        <Item Target="AlarmServer.Filter1_F1_111" TargetProperty="Value" Source="Tags.err1_11" />
+        <Item Target="AlarmServer.Filter1_F1_112" TargetProperty="Value" Source="Tags.err1_12" />
+        <Item Target="AlarmServer.Filter1_F1_113" TargetProperty="Value" Source="Tags.err1_13" />
+        <Item Target="AlarmServer.Filter1_F1_DS_H" TargetProperty="Value" Source="Tags.F1_DS_H" />
+        <Item Target="AlarmServer.Filter1_F1_VS_A_H" TargetProperty="Value" Source="Tags.F1_VS_A_H" />
+        <Item Target="AlarmServer.Filter1_F1_VS_A_L" TargetProperty="Value" Source="Tags.F1_VS_A_L" />
+        <Item Target="AlarmServer.Filter1_F1_VS_B_H" TargetProperty="Value" Source="Tags.F1_VS_B_H" />
+        <Item Target="AlarmServer.Filter1_F1_VS_B_L" TargetProperty="Value" Source="Tags.F1_VS_B_L" />
+        <Item Target="AlarmServer.Filter1_F1_VS_C_H" TargetProperty="Value" Source="Tags.F1_VS_C_H" />
+        <Item Target="AlarmServer.Filter1_F1_VS_C_L" TargetProperty="Value" Source="Tags.F1_VS_C_L" />
+        <Item Target="AlarmServer.Filter1_F1_FS_H" TargetProperty="Value" Source="Tags.F1_FS_H" />
+        <Item Target="AlarmServer.Filter1_F1_FS_L" TargetProperty="Value" Source="Tags.F1_FS_L" />
+        <Item Target="AlarmServer.Filter1_F1_TS_H" TargetProperty="Value" Source="Tags.F1_TS_H" />
+        <Item Target="AlarmServer.Filter1_F1_CS_A_H" TargetProperty="Value" Source="Tags.F1_CS_A_H" />
+        <Item Target="AlarmServer.Filter1_F1_CS_B_H" TargetProperty="Value" Source="Tags.F1_CS_B_H" />
+        <Item Target="AlarmServer.Filter1_F1_CS_C_H" TargetProperty="Value" Source="Tags.F1_CS_C_H" />
+        <Item Target="AlarmServer.Filter1_F1_MVS_1_H" TargetProperty="Value" Source="Tags.F1_MVS_1_H" />
+        <Item Target="AlarmServer.Filter1_F1_MVS_1_L" TargetProperty="Value" Source="Tags.F1_MVS_1_L" />
+        <Item Target="AlarmServer.Filter1_F1_MVS_2_H" TargetProperty="Value" Source="Tags.F1_MVS_2_H" />
+        <Item Target="AlarmServer.Filter1_F1_MVS_2_L" TargetProperty="Value" Source="Tags.F1_MVS_2_L" />
+        <Item xsi:type="ActionItem" Target="AlarmServer.Filter2" TargetProperty="Action" Source="Tags.buzzer" Event="AlarmActive" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="AlarmServer.Filter2" TargetProperty="Action" Source="Tags.flickerState" Event="AlarmActive" Action="Set Tag" Param="" />
+        <Item Target="AlarmServer.Filter2_F2_111" TargetProperty="Value" Source="Tags.err1_11_f2" />
+        <Item Target="AlarmServer.Filter2_F2_112" TargetProperty="Value" Source="Tags.err1_12_f2" />
+        <Item Target="AlarmServer.Filter2_F2_113" TargetProperty="Value" Source="Tags.err1_13_f2" />
+        <Item Target="AlarmServer.Filter2_F2_DS_H" TargetProperty="Value" Source="Tags.F2_DS_H" />
+        <Item Target="AlarmServer.Filter2_F2_VS_A_H" TargetProperty="Value" Source="Tags.F2_VS_A_H" />
+        <Item Target="AlarmServer.Filter2_F2_VS_A_L" TargetProperty="Value" Source="Tags.F2_VS_A_L" />
+        <Item Target="AlarmServer.Filter2_F2_VS_B_H" TargetProperty="Value" Source="Tags.F2_VS_B_H" />
+        <Item Target="AlarmServer.Filter2_F2_VS_B_L" TargetProperty="Value" Source="Tags.F2_VS_B_L" />
+        <Item Target="AlarmServer.Filter2_F2_VS_C_H" TargetProperty="Value" Source="Tags.F2_VS_C_H" />
+        <Item Target="AlarmServer.Filter2_F2_VS_C_L" TargetProperty="Value" Source="Tags.F2_VS_C_L" />
+        <Item Target="AlarmServer.Filter2_F2_FS_H" TargetProperty="Value" Source="Tags.F2_FS_H" />
+        <Item Target="AlarmServer.Filter2_F2_FS_L" TargetProperty="Value" Source="Tags.F2_FS_L" />
+        <Item Target="AlarmServer.Filter2_F2_TS_H" TargetProperty="Value" Source="Tags.F2_TS_H" />
+        <Item Target="AlarmServer.Filter2_F2_CS_A_H" TargetProperty="Value" Source="Tags.F2_CS_A_H" />
+        <Item Target="AlarmServer.Filter2_F2_CS_B_H" TargetProperty="Value" Source="Tags.F2_CS_B_H" />
+        <Item Target="AlarmServer.Filter2_F2_CS_C_H" TargetProperty="Value" Source="Tags.F2_CS_C_H" />
+        <Item Target="AlarmServer.Filter2_F2_MVS_1_H" TargetProperty="Value" Source="Tags.F2_MVS_1_H" />
+        <Item Target="AlarmServer.Filter2_F2_MVS_1_L" TargetProperty="Value" Source="Tags.F2_MVS_1_L" />
+        <Item Target="AlarmServer.Filter2_F2_MVS_2_H" TargetProperty="Value" Source="Tags.F2_MVS_2_H" />
+        <Item Target="AlarmServer.Filter2_F2_MVS_2_L" TargetProperty="Value" Source="Tags.F2_MVS_2_L" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="AlarmServer.Filter1" TargetProperty="Action" Source="Tags.buzzer" Event="AlarmActive" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="AlarmServer.Filter1" TargetProperty="Action" Source="Tags.flickerState" Event="AlarmActive" Action="Set Tag" Param="" />
+        <Item Target="AlarmServer.Filter1_F1_111" TargetProperty="Value" Source="Tags.err1_11" />
+        <Item Target="AlarmServer.Filter1_F1_112" TargetProperty="Value" Source="Tags.err1_12" />
+        <Item Target="AlarmServer.Filter1_F1_113" TargetProperty="Value" Source="Tags.err1_13" />
+        <Item Target="AlarmServer.Filter1_F1_DS_H" TargetProperty="Value" Source="Tags.F1_DS_H" />
+        <Item Target="AlarmServer.Filter1_F1_VS_A_H" TargetProperty="Value" Source="Tags.F1_VS_A_H" />
+        <Item Target="AlarmServer.Filter1_F1_VS_A_L" TargetProperty="Value" Source="Tags.F1_VS_A_L" />
+        <Item Target="AlarmServer.Filter1_F1_VS_B_H" TargetProperty="Value" Source="Tags.F1_VS_B_H" />
+        <Item Target="AlarmServer.Filter1_F1_VS_B_L" TargetProperty="Value" Source="Tags.F1_VS_B_L" />
+        <Item Target="AlarmServer.Filter1_F1_VS_C_H" TargetProperty="Value" Source="Tags.F1_VS_C_H" />
+        <Item Target="AlarmServer.Filter1_F1_VS_C_L" TargetProperty="Value" Source="Tags.F1_VS_C_L" />
+        <Item Target="AlarmServer.Filter1_F1_FS_H" TargetProperty="Value" Source="Tags.F1_FS_H" />
+        <Item Target="AlarmServer.Filter1_F1_FS_L" TargetProperty="Value" Source="Tags.F1_FS_L" />
+        <Item Target="AlarmServer.Filter1_F1_TS_H" TargetProperty="Value" Source="Tags.F1_TS_H" />
+        <Item Target="AlarmServer.Filter1_F1_CS_A_H" TargetProperty="Value" Source="Tags.F1_CS_A_H" />
+        <Item Target="AlarmServer.Filter1_F1_CS_B_H" TargetProperty="Value" Source="Tags.F1_CS_B_H" />
+        <Item Target="AlarmServer.Filter1_F1_CS_C_H" TargetProperty="Value" Source="Tags.F1_CS_C_H" />
+        <Item Target="AlarmServer.Filter1_F1_MVS_1_H" TargetProperty="Value" Source="Tags.F1_MVS_1_H" />
+        <Item Target="AlarmServer.Filter1_F1_MVS_1_L" TargetProperty="Value" Source="Tags.F1_MVS_1_L" />
+        <Item Target="AlarmServer.Filter1_F1_MVS_2_H" TargetProperty="Value" Source="Tags.F1_MVS_2_H" />
+        <Item Target="AlarmServer.Filter1_F1_MVS_2_L" TargetProperty="Value" Source="Tags.F1_MVS_2_L" />
+        <Item xsi:type="ActionItem" Target="AlarmServer.Filter2" TargetProperty="Action" Source="Tags.buzzer" Event="AlarmActive" Action="Set Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="AlarmServer.Filter2" TargetProperty="Action" Source="Tags.flickerState" Event="AlarmActive" Action="Set Tag" Param="" />
+        <Item Target="AlarmServer.Filter2_F2_111" TargetProperty="Value" Source="Tags.err1_11_f2" />
+        <Item Target="AlarmServer.Filter2_F2_112" TargetProperty="Value" Source="Tags.err1_12_f2" />
+        <Item Target="AlarmServer.Filter2_F2_113" TargetProperty="Value" Source="Tags.err1_13_f2" />
+        <Item Target="AlarmServer.Filter2_F2_DS_H" TargetProperty="Value" Source="Tags.F2_DS_H" />
+        <Item Target="AlarmServer.Filter2_F2_VS_A_H" TargetProperty="Value" Source="Tags.F2_VS_A_H" />
+        <Item Target="AlarmServer.Filter2_F2_VS_A_L" TargetProperty="Value" Source="Tags.F2_VS_A_L" />
+        <Item Target="AlarmServer.Filter2_F2_VS_B_H" TargetProperty="Value" Source="Tags.F2_VS_B_H" />
+        <Item Target="AlarmServer.Filter2_F2_VS_B_L" TargetProperty="Value" Source="Tags.F2_VS_B_L" />
+        <Item Target="AlarmServer.Filter2_F2_VS_C_H" TargetProperty="Value" Source="Tags.F2_VS_C_H" />
+        <Item Target="AlarmServer.Filter2_F2_VS_C_L" TargetProperty="Value" Source="Tags.F2_VS_C_L" />
+        <Item Target="AlarmServer.Filter2_F2_FS_H" TargetProperty="Value" Source="Tags.F2_FS_H" />
+        <Item Target="AlarmServer.Filter2_F2_FS_L" TargetProperty="Value" Source="Tags.F2_FS_L" />
+        <Item Target="AlarmServer.Filter2_F2_TS_H" TargetProperty="Value" Source="Tags.F2_TS_H" />
+        <Item Target="AlarmServer.Filter2_F2_CS_A_H" TargetProperty="Value" Source="Tags.F2_CS_A_H" />
+        <Item Target="AlarmServer.Filter2_F2_CS_B_H" TargetProperty="Value" Source="Tags.F2_CS_B_H" />
+        <Item Target="AlarmServer.Filter2_F2_CS_C_H" TargetProperty="Value" Source="Tags.F2_CS_C_H" />
+        <Item Target="AlarmServer.Filter2_F2_MVS_1_H" TargetProperty="Value" Source="Tags.F2_MVS_1_H" />
+        <Item Target="AlarmServer.Filter2_F2_MVS_1_L" TargetProperty="Value" Source="Tags.F2_MVS_1_L" />
+        <Item Target="AlarmServer.Filter2_F2_MVS_2_H" TargetProperty="Value" Source="Tags.F2_MVS_2_H" />
+        <Item Target="AlarmServer.Filter2_F2_MVS_2_L" TargetProperty="Value" Source="Tags.F2_MVS_2_L" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

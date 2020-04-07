@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="HOME1.Text" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="HOME1.Text1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="HOME1.Text2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="HOME1.Text3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="HOME1.Text4" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="HOME1.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text41" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="HOME1.Text28" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text29" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text30" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text31" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text38" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text39" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text40" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text10" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="HOME1.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Text17" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="HOME1.Button2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="HOME1.Button" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="HOME1.Button5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="HOME1.Text" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="HOME1.Text1" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="HOME1.Text2" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="HOME1.Text3" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="HOME1.Text4" TargetProperty="Value" Source="Tags.LID" />
+        <Item xsi:type="ActionItem" Target="HOME1.Ellipse" TargetProperty="Actions" Source="Tags.enableFilter1" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item Target="HOME1.Ellipse" TargetProperty="Fill" Source="Tags.enableFilter1" />
+        <Item xsi:type="ActionItem" Target="HOME1.Ellipse1" TargetProperty="Actions" Source="Tags.enableFilter2" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item Target="HOME1.Ellipse1" TargetProperty="Fill" Source="Tags.enableFilter2" />
+        <Item Target="HOME1.Ellipse2" TargetProperty="Fill" Source="Tags.enableFilter3" />
+        <Item Target="HOME1.Ellipse3" TargetProperty="Fill" Source="Tags.enableFilter4" />
+        <Item Target="HOME1.Ellipse4" TargetProperty="Fill" Source="Tags.enableFilter5" />
+        <Item Target="HOME1.Text41" TargetProperty="Value" Source="Tags.on_off_status" />
+        <Item Target="HOME1.Text41" TargetProperty="Foreground" Source="Tags.on_off_status" />
+        <Item Target="HOME1.Text28" TargetProperty="Value" Source="Tags.dis_iaf" />
+        <Item Target="HOME1.Text29" TargetProperty="Value" Source="Tags.dis_ibf" />
+        <Item Target="HOME1.Text30" TargetProperty="Value" Source="Tags.dis_icf" />
+        <Item Target="HOME1.Text31" TargetProperty="Value" Source="Tags.dis_ifn" />
+        <Item Target="HOME1.Text38" TargetProperty="Value" Source="Tags.err_1err_2" />
+        <Item Target="HOME1.Text39" TargetProperty="Value" Source="Tags.err_3err_4" />
+        <Item Target="HOME1.Text40" TargetProperty="Value" Source="Tags.err_5err_6" />
+        <Item Target="HOME1.Text10" TargetProperty="Value" Source="Tags.on_off_status_f2" />
+        <Item Target="HOME1.Text10" TargetProperty="Foreground" Source="Tags.on_off_status_f2" />
+        <Item Target="HOME1.Text11" TargetProperty="Value" Source="Tags.dis_iaf_f2" />
+        <Item Target="HOME1.Text12" TargetProperty="Value" Source="Tags.dis_ibf_f2" />
+        <Item Target="HOME1.Text13" TargetProperty="Value" Source="Tags.dis_icf" />
+        <Item Target="HOME1.Text14" TargetProperty="Value" Source="Tags.dis_ifn_f2" />
+        <Item Target="HOME1.Text15" TargetProperty="Value" Source="Tags.err_1err_2_f2" />
+        <Item Target="HOME1.Text16" TargetProperty="Value" Source="Tags.err_3err_4_f2" />
+        <Item Target="HOME1.Text17" TargetProperty="Value" Source="Tags.err_5err_6_f2" />
+        <Item Target="HOME1.Button5" TargetProperty="TextValue" Source="Tags.LID" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="HOME1.Button2" Source="-111776124_Normal.bmp" />
+        <Item Target="HOME1.Button2" Source="-111776124_Pressed.bmp" />
+        <Item Target="HOME1.Button2" Source="-111776124_Disabled.bmp" />
+        <Item Target="HOME1.Button" Source="-1433639887_Normal.bmp" />
+        <Item Target="HOME1.Button" Source="-1433639887_Pressed.bmp" />
+        <Item Target="HOME1.Button" Source="-1433639887_Disabled.bmp" />
+        <Item Target="HOME1.Button5" Source="-2114790204_Normal.bmp" />
+        <Item Target="HOME1.Button5" Source="-2114790204_Pressed.bmp" />
+        <Item Target="HOME1.Button5" Source="-2114790204_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="HOME1.Text38" TargetProperty="Actions" Source="ERR1_1" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="HOME1.Text15" TargetProperty="Actions" Source="ERR1_1" Event="MouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="HOME1.Button2" TargetProperty="Actions" Source="HOME2" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="HOME1.Button" TargetProperty="Actions" Source="HOME1" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="HOME1.Button5" TargetProperty="Actions" Source="HOME1" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>HOME1</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>67</ObjectsCount>
+          <ScreenName>HOME1</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="HOME1.Ellipse" TargetProperty="Actions" Source="Tags.enableFilter1" Event="MouseDown" Action="Toggle Tag" Param="" />
+        <Item xsi:type="ActionItem" Target="HOME1.Ellipse1" TargetProperty="Actions" Source="Tags.enableFilter2" Event="MouseDown" Action="Toggle Tag" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="HOME1.Picture" Source="禁止" Width="38" Height="38" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HOME1.Picture1" Source="禁止" Width="38" Height="38" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HOME1.Picture2" Source="禁止" Width="38" Height="38" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="HOME1.Picture3" Source="home" Width="38" Height="38" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

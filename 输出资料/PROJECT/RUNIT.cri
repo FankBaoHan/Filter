@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="RUNIT.Text" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="RUNIT.Button" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="RUNIT.Button1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="RUNIT.Button2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="RUNIT.Button3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="RUNIT.Button4" TargetProperty="FontFamily" Source="MSYH.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="RUNIT.Text" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="RUNIT.Button" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="RUNIT.Button" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.enableFilter1" />
+        <Item Target="RUNIT.Button1" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="RUNIT.Button1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.enableFilter2" />
+        <Item Target="RUNIT.Button2" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="RUNIT.Button2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.enableFilter3" />
+        <Item Target="RUNIT.Button3" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="RUNIT.Button3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.enableFilter4" />
+        <Item Target="RUNIT.Button4" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="RUNIT.Button4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.enableFilter5" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="RUNIT.Button" Source="1128411553_Normal.bmp" />
+        <Item Target="RUNIT.Button" Source="1128411553_Pressed.bmp" />
+        <Item Target="RUNIT.Button" Source="1128411553_Disabled.bmp" />
+        <Item Target="RUNIT.Button1" Source="1128411553_Normal.bmp" />
+        <Item Target="RUNIT.Button1" Source="1128411553_Pressed.bmp" />
+        <Item Target="RUNIT.Button1" Source="1128411553_Disabled.bmp" />
+        <Item Target="RUNIT.Button2" Source="1128411553_Normal.bmp" />
+        <Item Target="RUNIT.Button2" Source="1128411553_Pressed.bmp" />
+        <Item Target="RUNIT.Button2" Source="1128411553_Disabled.bmp" />
+        <Item Target="RUNIT.Button3" Source="1128411553_Normal.bmp" />
+        <Item Target="RUNIT.Button3" Source="1128411553_Pressed.bmp" />
+        <Item Target="RUNIT.Button3" Source="1128411553_Disabled.bmp" />
+        <Item Target="RUNIT.Button4" Source="1128411553_Normal.bmp" />
+        <Item Target="RUNIT.Button4" Source="1128411553_Pressed.bmp" />
+        <Item Target="RUNIT.Button4" Source="1128411553_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RUNIT.Button" TargetProperty="Actions" Source="DETAIL1" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>RUNIT</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>6</ObjectsCount>
+          <ScreenName>RUNIT</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

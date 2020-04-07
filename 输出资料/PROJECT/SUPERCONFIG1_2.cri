@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="SUPERCONFIG1_2.Text" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SUPERCONFIG1_2.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SUPERCONFIG1_2.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SUPERCONFIG1_2.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SUPERCONFIG1_2.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric4" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SUPERCONFIG1_2.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric6" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric7" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Text9" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Text10" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Text11" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric8" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric9" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric10" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Text14" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric13" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Button3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Button13" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Button1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Button" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Button2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Button5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SUPERCONFIG1_2.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="SUPERCONFIG1_2.Text" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric1" TargetProperty="Value" Source="Tags.num_50a" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric2" TargetProperty="Value" Source="Tags.num_75a" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric3" TargetProperty="Value" Source="Tags.num_100a" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric4" TargetProperty="Value" Source="Tags.num_125a" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric5" TargetProperty="Value" Source="Tags.num_150a" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric" TargetProperty="Value" Source="Tags.num_25a" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric6" TargetProperty="Value" Source="Tags.num_200a" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric7" TargetProperty="Value" Source="Tags.num_300a" />
+        <Item Target="SUPERCONFIG1_2.Text9" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERCONFIG1_2.Text10" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERCONFIG1_2.Text11" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric8" TargetProperty="Value" Source="Tags.value_autoshut" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric9" TargetProperty="Value" Source="Tags.delay_autostart" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric10" TargetProperty="Value" Source="Tags.delay_autorestart" />
+        <Item Target="SUPERCONFIG1_2.Text14" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SUPERCONFIG1_2.AnalogNumeric13" TargetProperty="Value" Source="Tags.value_autostart" />
+        <Item Target="SUPERCONFIG1_2.Button5" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="SUPERCONFIG1_2.Text15" TargetProperty="Value" Source="Tags.index" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="SUPERCONFIG1_2.Button3" Source="-1433639887_Normal.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button3" Source="-1433639887_Pressed.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button3" Source="-1433639887_Disabled.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button13" Source="-111776124_Normal.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button13" Source="-111776124_Pressed.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button13" Source="-111776124_Disabled.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button1" Source="-111776124_Normal.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button1" Source="-111776124_Pressed.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button1" Source="-111776124_Disabled.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button" Source="-111776124_Normal.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button" Source="-111776124_Pressed.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button" Source="-111776124_Disabled.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button2" Source="-111776124_Normal.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button2" Source="-111776124_Pressed.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button2" Source="-111776124_Disabled.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button5" Source="-770777441_Normal.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button5" Source="-770777441_Pressed.bmp" />
+        <Item Target="SUPERCONFIG1_2.Button5" Source="-770777441_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SUPERCONFIG1_2.Button3" TargetProperty="Actions" Source="SUPERCONFIG1_2" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SUPERCONFIG1_2.Button13" TargetProperty="Actions" Source="SUPERCONFIG1_4" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SUPERCONFIG1_2.Button1" TargetProperty="Actions" Source="SUPERCONFIG1_3" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SUPERCONFIG1_2.Button" TargetProperty="Actions" Source="SUPERCONFIG1_1" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SUPERCONFIG1_2.Button2" TargetProperty="Actions" Source="SUPERCONFIG1_2" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SUPERCONFIG1_2.Button5" TargetProperty="Actions" Source="SETTING" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>SUPERCONFIG1_2</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>58</ObjectsCount>
+          <ScreenName>SUPERCONFIG1_2</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

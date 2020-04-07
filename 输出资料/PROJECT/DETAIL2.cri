@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="DETAIL2.Text" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text4" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text6" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text7" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text8" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text9" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text10" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text11" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text12" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text13" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text17" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text18" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text20" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text21" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text22" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text23" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text24" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text25" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text26" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text28" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text29" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text30" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text31" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text32" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text33" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text34" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text35" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text36" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text37" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text38" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text39" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text40" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text41" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Text42" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Text43" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DETAIL2.Button5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="DETAIL2.Button" TargetProperty="FontFamily" Source="MSYH.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DETAIL2.Text" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text3" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text4" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text5" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text6" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text7" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text8" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text9" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text10" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text11" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text12" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text13" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text14" TargetProperty="Value" Source="Tags.dis_usa_f2" />
+        <Item Target="DETAIL2.Text15" TargetProperty="Value" Source="Tags.dis_usb_f2" />
+        <Item Target="DETAIL2.Text16" TargetProperty="Value" Source="Tags.dis_usc_f2" />
+        <Item Target="DETAIL2.Text17" TargetProperty="Value" Source="Tags.dis_ial_f2" />
+        <Item Target="DETAIL2.Text18" TargetProperty="Value" Source="Tags.dis_ibl_f2" />
+        <Item Target="DETAIL2.Text19" TargetProperty="Value" Source="Tags.dis_icl_f2" />
+        <Item Target="DETAIL2.Text20" TargetProperty="Value" Source="Tags.dis_iln_f2" />
+        <Item Target="DETAIL2.Text21" TargetProperty="Value" Source="Tags.dis_ilah_f2" />
+        <Item Target="DETAIL2.Text22" TargetProperty="Value" Source="Tags.dis_ilbh_f2" />
+        <Item Target="DETAIL2.Text23" TargetProperty="Value" Source="Tags.dis_ilch_f2" />
+        <Item Target="DETAIL2.Text24" TargetProperty="Value" Source="Tags.dis_ial_f2" />
+        <Item Target="DETAIL2.Text25" TargetProperty="Value" Source="Tags.dis_u_ab_f2" />
+        <Item Target="DETAIL2.Text26" TargetProperty="Value" Source="Tags.dis_iql_f2" />
+        <Item Target="DETAIL2.Text28" TargetProperty="Value" Source="Tags.dis_iaf_f2" />
+        <Item Target="DETAIL2.Text29" TargetProperty="Value" Source="Tags.dis_ibf_f2" />
+        <Item Target="DETAIL2.Text30" TargetProperty="Value" Source="Tags.dis_icf_f2" />
+        <Item Target="DETAIL2.Text31" TargetProperty="Value" Source="Tags.dis_ifn_f2" />
+        <Item Target="DETAIL2.Text32" TargetProperty="Value" Source="Tags.dis_iqf_f2" />
+        <Item Target="DETAIL2.Text33" TargetProperty="Value" Source="Tags.dis_udc1_f2" />
+        <Item Target="DETAIL2.Text34" TargetProperty="Value" Source="Tags.dis_udc2_f2" />
+        <Item Target="DETAIL2.Text35" TargetProperty="Value" Source="Tags.dis_tem1_f2" />
+        <Item Target="DETAIL2.Text36" TargetProperty="Value" Source="Tags.heat_tem_hi_f2" />
+        <Item Target="DETAIL2.Text37" TargetProperty="Value" Source="Tags.heat_tem_lo_f2" />
+        <Item Target="DETAIL2.Text38" TargetProperty="Value" Source="Tags.err_1err_2_f2" />
+        <Item Target="DETAIL2.Text39" TargetProperty="Value" Source="Tags.err_3err_4_f2" />
+        <Item Target="DETAIL2.Text40" TargetProperty="Value" Source="Tags.err_5err_6_f2" />
+        <Item Target="DETAIL2.Text41" TargetProperty="Value" Source="Tags.on_off_status_f2" />
+        <Item Target="DETAIL2.Text41" TargetProperty="Foreground" Source="Tags.on_off_status" />
+        <Item Target="DETAIL2.Text42" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="DETAIL2.Text43" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LID" />
+        <Item Target="DETAIL2.AnalogNumeric" TargetProperty="Value" Source="Tags.freqvalue_measure_f2" />
+        <Item Target="DETAIL2.Button5" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="DETAIL2.Button" TargetProperty="TextValue" Source="Tags.LID" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="DETAIL2.Button5" Source="-770777441_Normal.bmp" />
+        <Item Target="DETAIL2.Button5" Source="-770777441_Pressed.bmp" />
+        <Item Target="DETAIL2.Button5" Source="-770777441_Disabled.bmp" />
+        <Item Target="DETAIL2.Button" Source="-1560639370_Normal.bmp" />
+        <Item Target="DETAIL2.Button" Source="-1560639370_Pressed.bmp" />
+        <Item Target="DETAIL2.Button" Source="-1560639370_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DETAIL2.Text38" TargetProperty="Actions" Source="ERR2_1" Event="MouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="DETAIL2.Text39" TargetProperty="Actions" Source="ERR2_2" Event="MouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="DETAIL2.Text40" TargetProperty="Actions" Source="ERR2_3" Event="MouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="DETAIL2.Button5" TargetProperty="Actions" Source="UNITS" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="DETAIL2.Button" TargetProperty="Actions" Source="DNV_DIS_2" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>DETAIL2</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>80</ObjectsCount>
+          <ScreenName>DETAIL2</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

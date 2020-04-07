@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="SETTING.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SETTING.Text6" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SETTING.Text11" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SETTING.TouchComboBox1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SETTING.Button2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SETTING.Button" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SETTING.Button1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SETTING.Button3" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SETTING.Button4" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SETTING.Button5" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="SETTING.Button6" TargetProperty="FontFamily" Source="MSYH.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="SETTING.Text5" TargetProperty="Value" Source="Tags.SystemTagCurrentUser" />
+        <Item Target="SETTING.Text6" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SETTING.Text11" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SETTING.TouchComboBox1" TargetProperty="Value" Source="Tags.LID" />
+        <Item Target="SETTING.Button2" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="SETTING.Button" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="SETTING.Button1" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="SETTING.Button3" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="SETTING.Button4" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="SETTING.Button5" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="SETTING.Button6" TargetProperty="TextValue" Source="Tags.LID" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="SETTING.TouchComboBox1" Source="SETTING.m_TouchComboBox1.bmp" />
+        <Item Target="SETTING.Button2" Source="-1256198018_Normal.bmp" />
+        <Item Target="SETTING.Button2" Source="-1256198018_Pressed.bmp" />
+        <Item Target="SETTING.Button2" Source="-1256198018_Disabled.bmp" />
+        <Item Target="SETTING.Button" Source="-1256198018_Normal.bmp" />
+        <Item Target="SETTING.Button" Source="-1256198018_Pressed.bmp" />
+        <Item Target="SETTING.Button" Source="-1256198018_Disabled.bmp" />
+        <Item Target="SETTING.Button1" Source="-1256198018_Normal.bmp" />
+        <Item Target="SETTING.Button1" Source="-1256198018_Pressed.bmp" />
+        <Item Target="SETTING.Button1" Source="-1256198018_Disabled.bmp" />
+        <Item Target="SETTING.Button3" Source="-1256198018_Normal.bmp" />
+        <Item Target="SETTING.Button3" Source="-1256198018_Pressed.bmp" />
+        <Item Target="SETTING.Button3" Source="-1256198018_Disabled.bmp" />
+        <Item Target="SETTING.Button4" Source="-1256198018_Normal.bmp" />
+        <Item Target="SETTING.Button4" Source="-1256198018_Pressed.bmp" />
+        <Item Target="SETTING.Button4" Source="-1256198018_Disabled.bmp" />
+        <Item Target="SETTING.Button5" Source="-770777441_Normal.bmp" />
+        <Item Target="SETTING.Button5" Source="-770777441_Pressed.bmp" />
+        <Item Target="SETTING.Button5" Source="-770777441_Disabled.bmp" />
+        <Item Target="SETTING.Button6" Source="-1225846671_Normal.bmp" />
+        <Item Target="SETTING.Button6" Source="-1225846671_Pressed.bmp" />
+        <Item Target="SETTING.Button6" Source="-1225846671_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SETTING.Button" TargetProperty="Actions" Source="SUPERDUNIT" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SETTING.Button1" TargetProperty="Actions" Source="SUPERCONFIG1_1" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SETTING.Button5" TargetProperty="Actions" Source="SETTING" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>SETTING</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>28</ObjectsCount>
+          <ScreenName>SETTING</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="SETTING.Picture4" Source="contact_128px_538051_easyicon.net" Width="31" Height="26" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="SETTING.Picture1" Source="power_128px_538113_easyicon.net" Width="30" Height="30" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

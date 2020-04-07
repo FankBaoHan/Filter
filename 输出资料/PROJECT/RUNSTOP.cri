@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.41.177.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="RUNSTOP.Button" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="RUNSTOP.Button1" TargetProperty="FontFamily" Source="MSYH.TTC" />
+        <Item Target="RUNSTOP.Button2" TargetProperty="FontFamily" Source="MSYH.TTC" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RUNSTOP.Button" TargetProperty="Actions" Source="Tags.runstop_all" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="RUNSTOP.Button" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item xsi:type="ActionItem" Target="RUNSTOP.Button1" TargetProperty="Actions" Source="Tags.runstop_all" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="RUNSTOP.Button1" TargetProperty="TextValue" Source="Tags.LID" />
+        <Item Target="RUNSTOP.Button2" TargetProperty="TextValue" Source="Tags.LID" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="InvalidAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="RUNSTOP.Button" Source="-1589331209_Normal.bmp" />
+        <Item Target="RUNSTOP.Button" Source="-1589331209_Pressed.bmp" />
+        <Item Target="RUNSTOP.Button" Source="-1589331209_Disabled.bmp" />
+        <Item Target="RUNSTOP.Button1" Source="-1589331209_Normal.bmp" />
+        <Item Target="RUNSTOP.Button1" Source="-1589331209_Pressed.bmp" />
+        <Item Target="RUNSTOP.Button1" Source="-1589331209_Disabled.bmp" />
+        <Item Target="RUNSTOP.Button2" Source="-1589331209_Normal.bmp" />
+        <Item Target="RUNSTOP.Button2" Source="-1589331209_Pressed.bmp" />
+        <Item Target="RUNSTOP.Button2" Source="-1589331209_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>RUNSTOP</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>3</ObjectsCount>
+          <ScreenName>RUNSTOP</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RUNSTOP.Button" TargetProperty="Actions" Source="Tags.runstop_all" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="RUNSTOP.Button1" TargetProperty="Actions" Source="Tags.runstop_all" Event="Click" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

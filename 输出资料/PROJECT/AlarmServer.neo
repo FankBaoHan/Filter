@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.41.177.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmServer, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" d1p1:Site.Name="AlarmServer" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341" MaximumAlarmEventsToDistribute="100" ServerPort="1000">
+    <AlarmGroups>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmGroup, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Filter1" Text="Filter1" ActiveBackColor="191, 19, 41" InactiveBackColor="241, 204, 71" AcknowledgeBackColor="255, 194, 14" NormalBackColor="34, 177, 76" ActiveForeColor="Black" InactiveForeColor="Black" AcknowledgeForeColor="Black" NormalForeColor="Black" EnableDistribution="False" d1p1:Site.Name="Filter1" ActionName="Multi Action" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+        <AlarmItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_111" Name="Filter1_F1_111" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1A相igbt故障" DefaultText="模块1A相igbt故障" d1p1:Site.Name="Filter1_F1_111" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1A相igbt故障" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.err1_11" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_112" Name="Filter1_F1_112" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1B相igbt故障" DefaultText="模块1B相igbt故障" d1p1:Site.Name="Filter1_F1_112" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1B相igbt故障" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.err1_12" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_113" Name="Filter1_F1_113" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1C相igbt故障" DefaultText="模块1C相igbt故障" d1p1:Site.Name="Filter1_F1_113" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1C相igbt故障" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.err1_13" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_DS_H" Name="Filter1_F1_DS_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1三相不平衡" DefaultText="模块1三相不平衡" d1p1:Site.Name="Filter1_F1_DS_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1三相不平衡" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_DS_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_VS_A_H" Name="Filter1_F1_VS_A_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1电压高" DefaultText="模块1电压高" d1p1:Site.Name="Filter1_F1_VS_A_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_VS_A_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_VS_A_L" Name="Filter1_F1_VS_A_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1电压低" DefaultText="模块1电压低" d1p1:Site.Name="Filter1_F1_VS_A_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_VS_A_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_VS_B_H" Name="Filter1_F1_VS_B_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1B相电压高" DefaultText="模块1B相电压高" d1p1:Site.Name="Filter1_F1_VS_B_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1B相电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_VS_B_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_VS_B_L" Name="Filter1_F1_VS_B_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1B相电压低" DefaultText="模块1B相电压低" d1p1:Site.Name="Filter1_F1_VS_B_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1B相电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_VS_B_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_VS_C_H" Name="Filter1_F1_VS_C_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1C相电压高" DefaultText="模块1C相电压高" d1p1:Site.Name="Filter1_F1_VS_C_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1C相电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_VS_C_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_VS_C_L" Name="Filter1_F1_VS_C_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1C相电压低" DefaultText="模块1C相电压低" d1p1:Site.Name="Filter1_F1_VS_C_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1C相电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_VS_C_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_FS_H" Name="Filter1_F1_FS_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1频率高" DefaultText="模块1频率高" d1p1:Site.Name="Filter1_F1_FS_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1频率高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_FS_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_FS_L" Name="Filter1_F1_FS_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1频率低" DefaultText="模块1频率低" d1p1:Site.Name="Filter1_F1_FS_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1频率低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_FS_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_TS_H" Name="Filter1_F1_TS_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1温度高" DefaultText="模块1温度高" d1p1:Site.Name="Filter1_F1_TS_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1温度高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_TS_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_CS_A_H" Name="Filter1_F1_CS_A_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1A相输出电流高" DefaultText="模块1A相输出电流高" d1p1:Site.Name="Filter1_F1_CS_A_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1A相输出电流高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_CS_A_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_CS_B_H" Name="Filter1_F1_CS_B_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1B相输出电流高" DefaultText="模块1B相输出电流高" d1p1:Site.Name="Filter1_F1_CS_B_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1B相输出电流高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_CS_B_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_CS_C_H" Name="Filter1_F1_CS_C_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1C相输出电流高" DefaultText="模块1C相输出电流高" d1p1:Site.Name="Filter1_F1_CS_C_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1C相输出电流高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_CS_C_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_MVS_1_H" Name="Filter1_F1_MVS_1_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1直流母线1电压高" DefaultText="模块1直流母线1电压高" d1p1:Site.Name="Filter1_F1_MVS_1_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1直流母线1电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_MVS_1_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_MVS_1_L" Name="Filter1_F1_MVS_1_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1直流母线1电压低" DefaultText="模块1直流母线1电压低" d1p1:Site.Name="Filter1_F1_MVS_1_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1直流母线1电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_MVS_1_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_MVS_2_H" Name="Filter1_F1_MVS_2_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1直流母线2电压高" DefaultText="模块1直流母线2电压高" d1p1:Site.Name="Filter1_F1_MVS_2_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1直流母线2电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_MVS_2_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="39754837-e7a6-419b-885c-96247728151e" GroupName="Filter1" DisplayName="F1_MVS_2_L" Name="Filter1_F1_MVS_2_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块1直流母线2电压低" DefaultText="模块1直流母线2电压低" d1p1:Site.Name="Filter1_F1_MVS_2_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块1直流母线2电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F1_MVS_2_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+        </AlarmItems>
+        <Action>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.MultiAction, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Multi Action">
+            <Actions>
+              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Set Tag">
+                <ActionMethodInfo>
+                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="SetTag" ObjectName="Tags.buzzer" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                </ActionMethodInfo>
+              </Object>
+              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Set Tag">
+                <ActionMethodInfo>
+                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="SetTag" ObjectName="Tags.flickerState" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                </ActionMethodInfo>
+              </Object>
+            </Actions>
+            <ActionMethodInfo>
+              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="" ObjectName="" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </ActionMethodInfo>
+          </Object>
+        </Action>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmGroup, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Filter2" Text="Filter2" ActiveBackColor="191, 19, 41" InactiveBackColor="241, 204, 71" AcknowledgeBackColor="255, 194, 14" NormalBackColor="34, 177, 76" ActiveForeColor="Black" InactiveForeColor="Black" AcknowledgeForeColor="Black" NormalForeColor="Black" EnableDistribution="False" d1p1:Site.Name="Filter2" ActionName="Multi Action" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+        <AlarmItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_111" Name="Filter2_F2_111" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2A相igbt故障" DefaultText="模块2A相igbt故障" d1p1:Site.Name="Filter2_F2_111" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2A相igbt故障" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.err1_11_f2" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_112" Name="Filter2_F2_112" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2B相igbt故障" DefaultText="模块2B相igbt故障" d1p1:Site.Name="Filter2_F2_112" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2B相igbt故障" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.err1_12_f2" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_113" Name="Filter2_F2_113" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2C相igbt故障" DefaultText="模块2C相igbt故障" d1p1:Site.Name="Filter2_F2_113" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2C相igbt故障" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.err1_13_f2" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_DS_H" Name="Filter2_F2_DS_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2三相不平衡" DefaultText="模块2三相不平衡" d1p1:Site.Name="Filter2_F2_DS_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2三相不平衡" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_DS_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_VS_A_H" Name="Filter2_F2_VS_A_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2电压高" DefaultText="模块2电压高" d1p1:Site.Name="Filter2_F2_VS_A_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_VS_A_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_VS_A_L" Name="Filter2_F2_VS_A_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2电压低" DefaultText="模块2电压低" d1p1:Site.Name="Filter2_F2_VS_A_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_VS_A_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_VS_B_H" Name="Filter2_F2_VS_B_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2B相电压高" DefaultText="模块2B相电压高" d1p1:Site.Name="Filter2_F2_VS_B_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2B相电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_VS_B_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_VS_B_L" Name="Filter2_F2_VS_B_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2B相电压低" DefaultText="模块2B相电压低" d1p1:Site.Name="Filter2_F2_VS_B_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2B相电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_VS_B_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_VS_C_H" Name="Filter2_F2_VS_C_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2C相电压高" DefaultText="模块2C相电压高" d1p1:Site.Name="Filter2_F2_VS_C_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2C相电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_VS_C_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_VS_C_L" Name="Filter2_F2_VS_C_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2C相电压低" DefaultText="模块2C相电压低" d1p1:Site.Name="Filter2_F2_VS_C_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2C相电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_VS_C_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_FS_H" Name="Filter2_F2_FS_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2频率高" DefaultText="模块2频率高" d1p1:Site.Name="Filter2_F2_FS_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2频率高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_FS_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_FS_L" Name="Filter2_F2_FS_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2频率低" DefaultText="模块2频率低" d1p1:Site.Name="Filter2_F2_FS_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2频率低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_FS_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_TS_H" Name="Filter2_F2_TS_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2温度高" DefaultText="模块2温度高" d1p1:Site.Name="Filter2_F2_TS_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2温度高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_TS_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_CS_A_H" Name="Filter2_F2_CS_A_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2A相输出电流高" DefaultText="模块2A相输出电流高" d1p1:Site.Name="Filter2_F2_CS_A_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2A相输出电流高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_CS_A_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_CS_B_H" Name="Filter2_F2_CS_B_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2B相输出电流高" DefaultText="模块2B相输出电流高" d1p1:Site.Name="Filter2_F2_CS_B_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2B相输出电流高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_CS_B_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_CS_C_H" Name="Filter2_F2_CS_C_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2C相输出电流高" DefaultText="模块2C相输出电流高" d1p1:Site.Name="Filter2_F2_CS_C_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2C相输出电流高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_CS_C_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_MVS_1_H" Name="Filter2_F2_MVS_1_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2直流母线1电压高" DefaultText="模块2直流母线1电压高" d1p1:Site.Name="Filter2_F2_MVS_1_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2直流母线1电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_MVS_1_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_MVS_1_L" Name="Filter2_F2_MVS_1_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2直流母线1电压低" DefaultText="模块2直流母线1电压低" d1p1:Site.Name="Filter2_F2_MVS_1_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2直流母线1电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_MVS_1_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_MVS_2_H" Name="Filter2_F2_MVS_2_H" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2直流母线2电压高" DefaultText="模块2直流母线2电压高" d1p1:Site.Name="Filter2_F2_MVS_2_H" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2直流母线2电压高" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_MVS_2_H" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Alarm.AlarmItem, ToolsCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" IsDigitalValue="False" History="True" RepeatCount="False" GroupId="aab4fd7f-0877-4ae8-8e38-dcd4898a1d6b" GroupName="Filter2" DisplayName="F2_MVS_2_L" Name="Filter2_F2_MVS_2_L" AcknowledgeRequired="True" EnableDistribution="False" StaticText="模块2直流母线2电压低" DefaultText="模块2直流母线2电压低" d1p1:Site.Name="Filter2_F2_MVS_2_L" ComparerType="EqualTo" ProjectGuid="5db07867-799a-499c-8a4f-ae0740bd6341">
+            <TriggerValue>
+              <Object d1p1:type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </TriggerValue>
+            <DynamicString>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Dynamics.DynamicString, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Text="模块2直流母线2电压低" />
+            </DynamicString>
+            <DataBindings>
+              <Object d1p1:type="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null">
+                <InstanceDescriptor DeclaringType="Neo.ApplicationFramework.Common.Data.DynamicBinding, CommonCF, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name=".ctor" MemberType="Constructor">
+                  <Parameter Name="PropertyName">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="DataSource" Value="Tags.F2_MVS_2_L" />
+                  <Parameter Name="DataMember">
+                    <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Value" />
+                  </Parameter>
+                  <Parameter Name="FormattingEnabled">
+                    <Object d1p1:type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="True" />
+                  </Parameter>
+                  <Parameter Name="DataSourceUpdateMode">
+                    <Object d1p1:type="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                      <InstanceDescriptor DeclaringType="System.Windows.Forms.DataSourceUpdateMode, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Name="Never" MemberType="Field" />
+                    </Object>
+                  </Parameter>
+                  <Parameter Name="Converter" Value="" />
+                </InstanceDescriptor>
+              </Object>
+            </DataBindings>
+          </Object>
+        </AlarmItems>
+        <Action>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.MultiAction, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Multi Action">
+            <Actions>
+              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Set Tag">
+                <ActionMethodInfo>
+                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="SetTag" ObjectName="Tags.buzzer" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                </ActionMethodInfo>
+              </Object>
+              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.Action, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="Set Tag">
+                <ActionMethodInfo>
+                  <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="SetTag" ObjectName="Tags.flickerState" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                </ActionMethodInfo>
+              </Object>
+            </Actions>
+            <ActionMethodInfo>
+              <Object d1p1:type="Neo.ApplicationFramework.Tools.Action.ActionMethodInfo, Tools, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" Name="" ObjectName="" EventName="AlarmActive" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </ActionMethodInfo>
+          </Object>
+        </Action>
+      </Object>
+    </AlarmGroups>
+  </Object>
+</NeoItem>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols>
+  <Symbol FileName="home.bmp" Transparent="true" Width="38" Height="38" />
+  <Symbol FileName="driverico.bmp" Transparent="true" Width="42" Height="42" />
+  <Symbol FileName="禁止.bmp" Transparent="true" Width="38" Height="38" />
+  <Symbol FileName="contact_128px_538051_easyicon.net.bmp" Transparent="true" Width="31" Height="31" />
+  <Symbol FileName="power_128px_538113_easyicon.net.bmp" Transparent="true" Width="30" Height="30" />
+  <Symbol FileName="led_red.bmp" Transparent="true" Width="21" Height="21" />
+  <Symbol FileName="led_green.bmp" Transparent="true" Width="21" Height="21" />
+</Symbols>

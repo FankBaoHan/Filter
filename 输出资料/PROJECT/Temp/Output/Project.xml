@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project SchemaVersion="2.41.177.0" ProjectRevision="491">
+  <Guid>5db07867-799a-499c-8a4f-ae0740bd6341</Guid>
+  <ProjectFiles>
+    <ProjectFile Name="ProjectImages.neo" ModifiedDate="2020-04-05T12:14:08.752971+08:00" Length="456" />
+    <ProjectFile Name="Symbols\contact_128px_538051_easyicon.net.png" ModifiedDate="2020-04-03T10:24:58.956927+08:00" Length="4669" />
+    <ProjectFile Name="Symbols\home.png" ModifiedDate="2020-04-01T13:55:05.7031682+08:00" Length="2129" />
+    <ProjectFile Name="Symbols\power_128px_538113_easyicon.net.png" ModifiedDate="2020-04-03T10:25:39.0237616+08:00" Length="6418" />
+    <ProjectFile Name="Symbols\禁止.png" ModifiedDate="2020-04-02T09:58:06.4844153+08:00" Length="4247" />
+    <ProjectFile Name="Symbols\driverico.ico" ModifiedDate="2020-04-01T13:55:05.9050522+08:00" Length="74506" />
+    <ProjectFile Name="Symbols\led_green.lib" ModifiedDate="2020-04-06T10:01:12.4095192+08:00" Length="34325" />
+    <ProjectFile Name="Symbols\led_red.lib" ModifiedDate="2020-04-06T10:01:12.3615457+08:00" Length="33316" />
+    <ProjectFile Name="SntpClientRootComponent.neo" ModifiedDate="2020-04-05T12:01:22.8099264+08:00" Length="470" />
+    <ProjectFile Name="ProjectConfiguration.neo" ModifiedDate="2020-04-05T12:01:22.833912+08:00" Length="6390" />
+    <ProjectFile Name="Security.neo" ModifiedDate="2020-04-05T13:10:38.0378175+08:00" Length="451" />
+    <ProjectFile Name="Security.xml" ModifiedDate="2020-04-05T13:10:38.0388168+08:00" Length="698" />
+    <ProjectFile Name="LicenseRootComponent.neo" ModifiedDate="2020-04-05T12:01:27.5831758+08:00" Length="16920" />
+    <ProjectFile Name="Expressions.neo" ModifiedDate="2020-04-07T08:48:42.5201242+08:00" Length="811" />
+    <ProjectFile Name="MultipleLanguages.neo" ModifiedDate="2020-04-07T15:04:58.6850858+08:00" Length="995118" />
+    <ProjectFile Name="Chinese (Simplified, PRC).lng" ModifiedDate="2020-04-07T15:04:58.9060985+08:00" Length="68" />
+    <ProjectFile Name="Chinese (Simplified, PRC).Designer.lng" ModifiedDate="2020-04-07T15:04:58.8820971+08:00" Length="4066" />
+    <ProjectFile Name="English (United States).lng" ModifiedDate="2020-04-07T15:04:58.9110987+08:00" Length="64" />
+    <ProjectFile Name="English (United States).Designer.lng" ModifiedDate="2020-04-07T15:04:58.8870974+08:00" Length="5810" />
+    <ProjectFile Name="Tags.neo" ModifiedDate="2020-04-07T08:44:40.806319+08:00" Length="357333" />
+    <ProjectFile Name="Tags.Script.cs" ModifiedDate="2020-04-07T08:44:40.8243093+08:00" Length="10020" />
+    <ProjectFile Name="AlarmServer.neo" ModifiedDate="2020-04-06T19:55:42.7831635+08:00" Length="121435" />
+    <ProjectFile Name="BG.neoxaml" ModifiedDate="2020-04-07T15:04:59.0411062+08:00" Length="794" />
+    <ProjectFile Name="BG.xaml" ModifiedDate="2020-04-07T15:04:59.2731194+08:00" Length="27312" />
+    <ProjectFile Name="CONFIG1_1.neoxaml" ModifiedDate="2020-04-07T08:45:42.5921682+08:00" Length="801" />
+    <ProjectFile Name="CONFIG1_1.xaml" ModifiedDate="2020-04-07T08:45:42.8190378+08:00" Length="75445" />
+    <ProjectFile Name="CONFIG1_2.neoxaml" ModifiedDate="2020-04-06T17:51:31.3013946+08:00" Length="801" />
+    <ProjectFile Name="CONFIG1_2.xaml" ModifiedDate="2020-04-06T17:51:31.4063345+08:00" Length="26402" />
+    <ProjectFile Name="CONFIG1_3.neoxaml" ModifiedDate="2020-04-06T17:51:31.9780062+08:00" Length="801" />
+    <ProjectFile Name="CONFIG1_3.Script.cs" ModifiedDate="2020-04-06T17:51:31.9780062+08:00" Length="784" />
+    <ProjectFile Name="CONFIG1_3.xaml" ModifiedDate="2020-04-06T17:51:32.3507921+08:00" Length="122201" />
+    <ProjectFile Name="CUNITS.neoxaml" ModifiedDate="2020-04-07T15:05:00.664199+08:00" Length="798" />
+    <ProjectFile Name="CUNITS.xaml" ModifiedDate="2020-04-07T15:05:00.7752054+08:00" Length="16327" />
+    <ProjectFile Name="DETAIL1.neoxaml" ModifiedDate="2020-04-07T15:05:01.5532499+08:00" Length="799" />
+    <ProjectFile Name="DETAIL1.xaml" ModifiedDate="2020-04-07T15:05:01.9202709+08:00" Length="66802" />
+    <ProjectFile Name="ERR1_1.neoxaml" ModifiedDate="2020-04-07T08:32:56.8576499+08:00" Length="798" />
+    <ProjectFile Name="ERR1_1.xaml" ModifiedDate="2020-04-07T08:32:57.0685281+08:00" Length="119684" />
+    <ProjectFile Name="ERR1_2.neoxaml" ModifiedDate="2020-04-05T16:02:34.1806419+08:00" Length="798" />
+    <ProjectFile Name="ERR1_2.xaml" ModifiedDate="2020-04-05T16:02:34.3725311+08:00" Length="114255" />
+    <ProjectFile Name="ERR1_3.neoxaml" ModifiedDate="2020-04-05T12:14:19.0990079+08:00" Length="798" />
+    <ProjectFile Name="ERR1_3.xaml" ModifiedDate="2020-04-05T12:14:19.2039477+08:00" Length="64692" />
+    <ProjectFile Name="HOME1.neoxaml" ModifiedDate="2020-04-07T15:05:03.898384+08:00" Length="797" />
+    <ProjectFile Name="HOME1.xaml" ModifiedDate="2020-04-07T15:05:04.2244026+08:00" Length="55963" />
+    <ProjectFile Name="HOME2.neoxaml" ModifiedDate="2020-04-07T09:29:32.8705558+08:00" Length="797" />
+    <ProjectFile Name="HOME2.xaml" ModifiedDate="2020-04-07T09:29:33.0094624+08:00" Length="46681" />
+    <ProjectFile Name="REALALARM.neoxaml" ModifiedDate="2020-04-06T15:36:13.9258693+08:00" Length="801" />
+    <ProjectFile Name="REALALARM.xaml" ModifiedDate="2020-04-06T15:36:13.9578514+08:00" Length="8122" />
+    <ProjectFile Name="RUNIT.neoxaml" ModifiedDate="2020-04-07T15:05:05.8284944+08:00" Length="797" />
+    <ProjectFile Name="RUNIT.xaml" ModifiedDate="2020-04-07T15:05:05.9275001+08:00" Length="16330" />
+    <ProjectFile Name="RUNSTOP.neoxaml" ModifiedDate="2020-04-07T15:05:06.5835376+08:00" Length="799" />
+    <ProjectFile Name="RUNSTOP.xaml" ModifiedDate="2020-04-07T15:05:06.661542+08:00" Length="9764" />
+    <ProjectFile Name="SETTING.neoxaml" ModifiedDate="2020-04-07T09:44:11.0258375+08:00" Length="799" />
+    <ProjectFile Name="SETTING.xaml" ModifiedDate="2020-04-07T09:44:11.0977963+08:00" Length="28750" />
+    <ProjectFile Name="SUPERCONFIG1_1.neoxaml" ModifiedDate="2020-04-06T14:13:59.4406915+08:00" Length="806" />
+    <ProjectFile Name="SUPERCONFIG1_1.xaml" ModifiedDate="2020-04-06T14:13:59.7085372+08:00" Length="84153" />
+    <ProjectFile Name="SUPERCONFIG1_2.neoxaml" ModifiedDate="2020-04-07T09:28:26.3768341+08:00" Length="806" />
+    <ProjectFile Name="SUPERCONFIG1_2.xaml" ModifiedDate="2020-04-07T09:28:26.5447372+08:00" Length="47155" />
+    <ProjectFile Name="SUPERCONFIG1_3.neoxaml" ModifiedDate="2020-04-06T14:14:37.8886364+08:00" Length="806" />
+    <ProjectFile Name="SUPERCONFIG1_3.xaml" ModifiedDate="2020-04-06T14:14:38.1524718+08:00" Length="82039" />
+    <ProjectFile Name="SUPERCONFIG1_4.neoxaml" ModifiedDate="2020-04-07T09:11:44.3728619+08:00" Length="806" />
+    <ProjectFile Name="SUPERCONFIG1_4.xaml" ModifiedDate="2020-04-07T09:11:44.5107695+08:00" Length="49600" />
+    <ProjectFile Name="SUPERDETAIL1.neoxaml" ModifiedDate="2020-04-07T09:27:52.3704166+08:00" Length="804" />
+    <ProjectFile Name="SUPERDETAIL1.xaml" ModifiedDate="2020-04-07T09:27:52.5633057+08:00" Length="57603" />
+    <ProjectFile Name="UNITS.neoxaml" ModifiedDate="2020-04-07T15:05:07.0605649+08:00" Length="797" />
+    <ProjectFile Name="UNITS.xaml" ModifiedDate="2020-04-07T15:05:07.1565704+08:00" Length="17357" />
+    <ProjectFile Name="SUPERCUNIT.neoxaml" ModifiedDate="2020-04-07T15:05:07.8656109+08:00" Length="802" />
+    <ProjectFile Name="SUPERCUNIT.xaml" ModifiedDate="2020-04-07T15:05:07.9686168+08:00" Length="17363" />
+    <ProjectFile Name="SUPERDUNIT.neoxaml" ModifiedDate="2020-04-07T15:05:08.6216542+08:00" Length="802" />
+    <ProjectFile Name="SUPERDUNIT.xaml" ModifiedDate="2020-04-07T15:05:08.7166596+08:00" Length="16314" />
+    <ProjectFile Name="DETAIL2.neoxaml" ModifiedDate="2020-04-07T15:05:09.4897038+08:00" Length="799" />
+    <ProjectFile Name="DETAIL2.xaml" ModifiedDate="2020-04-07T15:05:09.8527246+08:00" Length="66881" />
+    <ProjectFile Name="ERR2_1.neoxaml" ModifiedDate="2020-04-07T08:33:46.7312197+08:00" Length="798" />
+    <ProjectFile Name="ERR2_1.xaml" ModifiedDate="2020-04-07T08:33:46.9520928+08:00" Length="119663" />
+    <ProjectFile Name="ERR2_2.neoxaml" ModifiedDate="2020-04-06T08:19:14.5994081+08:00" Length="812" />
+    <ProjectFile Name="ERR2_2.xaml" ModifiedDate="2020-04-06T08:19:14.8322738+08:00" Length="114380" />
+    <ProjectFile Name="ERR2_3.neoxaml" ModifiedDate="2020-04-06T08:20:25.836357+08:00" Length="812" />
+    <ProjectFile Name="ERR2_3.xaml" ModifiedDate="2020-04-06T08:20:25.9672809+08:00" Length="64739" />
+    <ProjectFile Name="DNV_DIS_1.neoxaml" ModifiedDate="2020-04-07T09:09:36.0151757+08:00" Length="801" />
+    <ProjectFile Name="DNV_DIS_1.xaml" ModifiedDate="2020-04-07T09:09:36.5868477+08:00" Length="68233" />
+    <ProjectFile Name="ALARMCONFIG.neoxaml" ModifiedDate="2020-04-07T15:05:11.69583+08:00" Length="803" />
+    <ProjectFile Name="ALARMCONFIG.xaml" ModifiedDate="2020-04-07T15:05:11.8658397+08:00" Length="25338" />
+    <ProjectFile Name="DNV_DIS_2.neoxaml" ModifiedDate="2020-04-07T15:12:33.7583353+08:00" Length="801" />
+    <ProjectFile Name="DNV_DIS_2.xaml" ModifiedDate="2020-04-07T15:12:34.5673816+08:00" Length="69214" />
+    <ProjectFile Name="SUPERDETAIL2.neoxaml" ModifiedDate="2020-04-07T09:27:53.8265914+08:00" Length="804" />
+    <ProjectFile Name="SUPERDETAIL2.xaml" ModifiedDate="2020-04-07T09:27:54.0154698+08:00" Length="57673" />
+    <ProjectFile Name="Printer1.xml" ModifiedDate="2020-04-05T12:01:23.7194016+08:00" Length="850" />
+    <ProjectFile Name="Filter.neo" ModifiedDate="2020-04-07T08:25:46.1917912+08:00" Length="61297" />
+    <ProjectFile Name="DO.neo" ModifiedDate="2020-04-06T15:49:06.4013261+08:00" Length="1176" />
+    <ProjectFile Name="Flicker.neo" ModifiedDate="2020-04-07T08:44:43.6956598+08:00" Length="468" />
+    <ProjectFile Name="Flicker.Script.cs" ModifiedDate="2020-04-07T08:44:43.7006561+08:00" Length="2113" />
+    <ProjectFile Name="Harmonic4UnitOne.neo" ModifiedDate="2020-04-05T12:14:32.5882348+08:00" Length="477" />
+    <ProjectFile Name="Harmonic4UnitOne.Script.cs" ModifiedDate="2020-04-05T12:14:32.5882348+08:00" Length="17598" />
+    <ProjectFile Name="Deviation.neo" ModifiedDate="2020-04-07T09:14:52.5774691+08:00" Length="575" />
+    <ProjectFile Name="Deviation.Script.cs" ModifiedDate="2020-04-07T09:14:52.5784688+08:00" Length="2492" />
+    <ProjectFile Name="AlarmSet.neo" ModifiedDate="2020-04-07T08:44:58.4513642+08:00" Length="573" />
+    <ProjectFile Name="AlarmSet.Script.cs" ModifiedDate="2020-04-07T08:44:58.4563617+08:00" Length="12141" />
+  </ProjectFiles>
+</Project>
