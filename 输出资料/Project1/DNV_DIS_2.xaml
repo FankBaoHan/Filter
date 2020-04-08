@@ -1,0 +1,1033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.41.177.0'?>
+<nacs:ScreenWindow Topmost="False" Title="DNV_DIS_2" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="SingleBorder" ScreenSize="800, 480" StyleName="Default" IsCacheable="True" Background="{x:Null}" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=ControlsCF" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" xmlns:nacsd="clr-namespace:Neo.ApplicationFramework.Controls.Screen.Design;assembly=Controls" xmlns:nacs2="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Controls.Blink;assembly=Controls" xmlns:nacd1="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=CommonCF" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Common;assembly=CommonCF" xmlns:nacc1="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nacb1="clr-namespace:Neo.ApplicationFramework.Common.Behaviors;assembly=Common" xmlns:nacd2="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=Common" xmlns:nacb2="clr-namespace:Neo.ApplicationFramework.Common.Bevel;assembly=Common" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:nac2="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.DNV_DIS_2">
+  <nacs:ScreenWindow.TemplateScreen>
+    <nacs1:TemplateScreen Name="BG" RenderMode="Background" />
+  </nacs:ScreenWindow.TemplateScreen>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nacc:Rectangle Fill="#FF486D9D" Stroke="#FF000000" Name="m_Rectangle1" Width="399" Height="167" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="362" Canvas.Top="87" nacsd:EditorProperties.IsLocked="False" />
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="23" Canvas.Top="130" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.F2_VS_A_H].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="电压高" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="52" Canvas.Top="127" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="电压高">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="电压高" />
+              <nacd2:StringInterval Start="1" End="1" Value="Voltage  high&#xD;&#xA;Phase A voltage high" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture5" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="13" Canvas.Left="23" Canvas.Top="154" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.F2_VS_A_L].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="电压低" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text6" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="14" Canvas.Left="52" Canvas.Top="151" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="电压低">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="电压低" />
+              <nacd2:StringInterval Start="1" End="1" Value="Voltage low" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture6" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="15" Canvas.Left="23" Canvas.Top="183" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.F2_FS_H].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="频率高" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text7" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="16" Canvas.Left="52" Canvas.Top="180" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="频率高">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="频率高" />
+              <nacd2:StringInterval Start="1" End="1" Value="High frequency" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture7" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="17" Canvas.Left="24" Canvas.Top="210" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.F2_FS_L].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="频率低" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text8" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="18" Canvas.Left="53" Canvas.Top="207" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="频率低">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="频率低" />
+              <nacd2:StringInterval Start="1" End="1" Value="Low frequency" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture8" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="19" Canvas.Left="23" Canvas.Top="238" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.F2_TS_H].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="温度高" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text1" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="20" Canvas.Left="52" Canvas.Top="235" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="温度高">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="温度高" />
+              <nacd2:StringInterval Start="1" End="1" Value="High temperature" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture10" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="21" Canvas.Left="155" Canvas.Top="129" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.F2_CS_A_H].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="A相输出电流高" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text10" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="22" Canvas.Left="184" Canvas.Top="126" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="A相输出电流高">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="A相输出电流高" />
+              <nacd2:StringInterval Start="1" End="1" Value="Phase A voltage high&#xD;&#xA;Phase A current high" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture11" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="23" Canvas.Left="155" Canvas.Top="155" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.F2_CS_B_H].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="B相输出电流高" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text11" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="24" Canvas.Left="184" Canvas.Top="152" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="B相输出电流高">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="B相输出电流高" />
+              <nacd2:StringInterval Start="1" End="1" Value="Phase B current high&#xD;&#xA;5/5000&#xD;&#xA;Phase A voltage low" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture12" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="25" Canvas.Left="155" Canvas.Top="184" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.F2_CS_C_H].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="C相输出电流高" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text12" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="26" Canvas.Left="184" Canvas.Top="181" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="C相输出电流高">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="C相输出电流高" />
+              <nacd2:StringInterval Start="1" End="1" Value="Phase C current high&#xD;&#xA;5/5000&#xD;&#xA;Phase A voltage high" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture13" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="27" Canvas.Left="156" Canvas.Top="214" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.err2_11].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="A相IGBT故障" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text13" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="28" Canvas.Left="185" Canvas.Top="211" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="A相IGBT故障">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="A相IGBT故障" />
+              <nacd2:StringInterval Start="1" End="1" Value="Phase A IGBT fault&#xD;&#xA;Phase A IGBT fault" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture14" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="29" Canvas.Left="156" Canvas.Top="241" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.err2_12].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="B相IGBT故障" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text14" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="30" Canvas.Left="185" Canvas.Top="238" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="B相IGBT故障">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="B相IGBT故障" />
+              <nacd2:StringInterval Start="1" End="1" Value="Phase A IGBT fault&#xD;&#xA;5/5000&#xD;&#xA;Phase A voltage low" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture15" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="31" Canvas.Left="156" Canvas.Top="269" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.err2_13].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="C相IGBT故障" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text15" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="32" Canvas.Left="185" Canvas.Top="266" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="C相IGBT故障">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="B相IGBT故障" />
+              <nacd2:StringInterval Start="1" End="1" Value="Phase B IGBT fault&#xD;&#xA;5/5000&#xD;&#xA;Phase A voltage high" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nacs2:Symbol LockAspectRatio="True" MultiPicture="True" Stretch="False" FontSize="19" Name="m_MultiPicture16" Width="21" Height="21" RenderTransformOrigin="0.499557553155109,0.526635863561563" Visibility="Visible" Panel.ZIndex="33" Canvas.Left="157" Canvas.Top="296" nacb:BlinkProperties.IsBlinkEnabled="False" nacb:BlinkProperties.BlinkInterval="1000">
+      <nacs2:Symbol.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacs2:Symbol.Resources>
+      <nacs2:Symbol.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.F2_DS_H].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nacs2:Symbol.Value>
+      <nacs2:Symbol.SymbolIntervalMapper>
+        <nacd1:SymbolIntervalMapper>
+          <nacd1:SymbolIntervalMapper.Intervals>
+            <nacd1:SymbolIntervalList>
+              <nacd1:SymbolInterval Start="1" End="1">
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_red" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+              <nacd1:SymbolInterval>
+                <nacd1:SymbolInterval.Value>
+                  <nac:MultiSymbolItem SymbolName="led_green" Transparent="False" />
+                </nacd1:SymbolInterval.Value>
+              </nacd1:SymbolInterval>
+            </nacd1:SymbolIntervalList>
+          </nacd1:SymbolIntervalMapper.Intervals>
+        </nacd1:SymbolIntervalMapper>
+      </nacs2:Symbol.SymbolIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nacs2:Symbol>
+    <nac1:Label Text="三相不平衡" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="宋体" FontSize="14" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3.5,0,3.5,1" Name="m_Text16" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="34" Canvas.Left="186" Canvas.Top="293" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="三相不平衡">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="三相不平衡" />
+              <nacd2:StringInterval Start="1" End="1" Value="Phase unbalance&#xD;&#xA;5/5000&#xD;&#xA;Phase A voltage high" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:Label AutoStretchFont="True" Text="模块二" Background="#00FFFFFF" Foreground="#FFE3E3E3" FontFamily="微软雅黑" FontSize="16" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="4,0,4,1" Name="m_Text21" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="43" Canvas.Left="140" Canvas.Top="91" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="模块二">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="模块二" />
+              <nacd2:StringInterval Start="1" End="1" Value="Unit 2" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+    </nac1:Label>
+    <nac1:Label Text="线电压(V)" Background="#00FFFFFF" Foreground="#FFE3E3E3" FontFamily="微软雅黑" FontSize="12" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text9" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="44" Canvas.Left="373" Canvas.Top="100" nacsd:EditorProperties.IsLocked="False" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="线电压(V)">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value=" 线电压(V)" />
+              <nacd2:StringInterval Start="1" End="1" Value="Line volt(V)" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:Label Text="" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Tahoma" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text22" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="45" Canvas.Left="479" Canvas.Top="104">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_usa_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="A" Background="#00FFFFFF" Foreground="#FFE3E3E3" FontFamily="微软雅黑" FontSize="12" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text25" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="48" Canvas.Left="480" Canvas.Top="84" nacsd:EditorProperties.IsLocked="False" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="False">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="B" Background="#00FFFFFF" Foreground="#FFE3E3E3" FontFamily="微软雅黑" FontSize="12" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text26" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="49" Canvas.Left="589" Canvas.Top="84" nacsd:EditorProperties.IsLocked="False" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="False">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="C" Background="#00FFFFFF" Foreground="#FFE3E3E3" FontFamily="微软雅黑" FontSize="12" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text27" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="50" Canvas.Left="697" Canvas.Top="84" nacsd:EditorProperties.IsLocked="False" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="False">
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="频率(Hz)" Background="#00FFFFFF" Foreground="#FFE3E3E3" FontFamily="微软雅黑" FontSize="12" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text28" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="51" Canvas.Left="375" Canvas.Top="211" nacsd:EditorProperties.IsLocked="False" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="频率(Hz)">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="频率(Hz)" />
+              <nacd2:StringInterval Start="1" End="1" Value="Frequency(Hz)" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Decimal" NumberOfDecimals="2" LimitNumberOfCharacters="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" IsReadOnly="True" BorderBrush="#FF304968" BorderThickness="1,1,1,1" Background="#FF304968" Foreground="#FFFFFFFF" FontSize="12" Padding="2,2,2,2" Name="m_AnalogNumeric" Width="79" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Focusable="False" Panel.ZIndex="52" KeyboardNavigation.TabNavigation="None" Canvas.Left="462" Canvas.Top="210">
+      <nac1:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:AnalogNumericFX.Resources>
+      <nac1:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.freqvalue_measure_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac1:AnalogNumericFX.Value>
+      <nac1:AnalogNumericFX.BevelEffectInfo>
+        <nacb2:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac1:AnalogNumericFX.BevelEffectInfo>
+      <nac1:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:AnalogNumericFX.TextDecorations>
+    </nac1:AnalogNumericFX>
+    <nac1:Label Text="负载电流(A)" Background="#00FFFFFF" Foreground="#FFE3E3E3" FontFamily="微软雅黑" FontSize="12" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text29" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="53" Canvas.Left="373" Canvas.Top="136" nacsd:EditorProperties.IsLocked="False" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="负载电流(A)">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="负载电流(A)" />
+              <nacd2:StringInterval Start="1" End="1" Value="Load current(A)" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:Label Text="#" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Tahoma" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text30" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="54" Canvas.Left="478" Canvas.Top="139">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_ial_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="#" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Tahoma" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text31" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="55" Canvas.Left="589" Canvas.Top="141">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_ibl_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="#" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Tahoma" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text32" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="56" Canvas.Left="696" Canvas.Top="140">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_icl_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="温度(℃)" Background="#00FFFFFF" Foreground="#FFE3E3E3" FontFamily="微软雅黑" FontSize="12" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text33" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="57" Canvas.Left="604" Canvas.Top="214" nacsd:EditorProperties.IsLocked="False" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="温度(℃)">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="温度(℃)" />
+              <nacd2:StringInterval Start="1" End="1" Value="Temperature(℃)" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:Label Text="#" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Tahoma" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text35" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="58" Canvas.Left="690" Canvas.Top="217">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_tem1_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="输出电流(A)" Background="#00FFFFFF" Foreground="#FFE3E3E3" FontFamily="微软雅黑" FontSize="12" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text34" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="59" Canvas.Left="374" Canvas.Top="176" nacsd:EditorProperties.IsLocked="False" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+      <nac1:Label.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="输出电流(A)">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="输出电流(A)" />
+              <nacd2:StringInterval Start="1" End="1" Value="Output current(A)" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Label.TextIntervalMapper>
+    </nac1:Label>
+    <nac1:Label Text="#" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Tahoma" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text36" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="60" Canvas.Left="480" Canvas.Top="179">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_iaf_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="#" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Tahoma" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text37" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="61" Canvas.Left="590" Canvas.Top="180">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_ibf_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nac1:Label Text="#" Background="#00FFFFFF" Foreground="#FFFFFFFF" FontFamily="Tahoma" FontSize="12" FontWeight="Bold" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="3,0,3,1" Name="m_Text38" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="62" Canvas.Left="699" Canvas.Top="180">
+      <nac1:Label.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:Label.Resources>
+      <nac1:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_icf_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac1:Label.Value>
+      <nac1:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Label.TextDecorations>
+    </nac1:Label>
+    <nacc:Rectangle Fill="#FFA7A7A7" Stroke="#FF000000" Name="m_Rectangle" Width="356" Height="335" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="0" Canvas.Top="87" nacsd:EditorProperties.IsLocked="True" />
+    <nac1:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Integer" NumberOfDecimals="2" LimitNumberOfCharacters="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" IsReadOnly="True" BorderBrush="#FF304968" BorderThickness="1,1,1,1" Background="#FF304968" Foreground="#FFFFFFFF" FontSize="12" Padding="2,2,2,2" Name="m_AnalogNumeric1" Width="52" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Focusable="False" Panel.ZIndex="64" KeyboardNavigation.TabNavigation="None" Canvas.Left="467" Canvas.Top="103">
+      <nac1:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:AnalogNumericFX.Resources>
+      <nac1:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_usa_173_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac1:AnalogNumericFX.Value>
+      <nac1:AnalogNumericFX.BevelEffectInfo>
+        <nacb2:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac1:AnalogNumericFX.BevelEffectInfo>
+      <nac1:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:AnalogNumericFX.TextDecorations>
+    </nac1:AnalogNumericFX>
+    <nac1:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Integer" NumberOfDecimals="2" LimitNumberOfCharacters="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" IsReadOnly="True" BorderBrush="#FF304968" BorderThickness="1,1,1,1" Background="#FF304968" Foreground="#FFFFFFFF" FontSize="12" Padding="2,2,2,2" Name="m_AnalogNumeric2" Width="52" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Focusable="False" Panel.ZIndex="65" KeyboardNavigation.TabNavigation="None" Canvas.Left="570" Canvas.Top="103">
+      <nac1:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:AnalogNumericFX.Resources>
+      <nac1:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_usb_173_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac1:AnalogNumericFX.Value>
+      <nac1:AnalogNumericFX.BevelEffectInfo>
+        <nacb2:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac1:AnalogNumericFX.BevelEffectInfo>
+      <nac1:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:AnalogNumericFX.TextDecorations>
+    </nac1:AnalogNumericFX>
+    <nac1:AnalogNumericFX AutoStretchFont="False" DisplayFormat="Integer" NumberOfDecimals="2" LimitNumberOfCharacters="False" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" UndoLimit="1" Transparent="Visible" IsReadOnly="True" BorderBrush="#FF304968" BorderThickness="1,1,1,1" Background="#FF304968" Foreground="#FFFFFFFF" FontSize="12" Padding="2,2,2,2" Name="m_AnalogNumeric3" Width="52" Height="30" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Focusable="False" Panel.ZIndex="66" KeyboardNavigation.TabNavigation="None" Canvas.Left="683" Canvas.Top="102">
+      <nac1:AnalogNumericFX.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac1:AnalogNumericFX.Resources>
+      <nac1:AnalogNumericFX.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.dis_usc_173_f2].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>0</Binding.FallbackValue>
+        </Binding>
+      </nac1:AnalogNumericFX.Value>
+      <nac1:AnalogNumericFX.BevelEffectInfo>
+        <nacb2:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac1:AnalogNumericFX.BevelEffectInfo>
+      <nac1:AnalogNumericFX.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:AnalogNumericFX.TextDecorations>
+    </nac1:AnalogNumericFX>
+    <nac1:Button Text="报警值设置" RequiresTransparency="True" SymbolTransparent="False" Background="#FFA7A7A7" FontFamily="微软雅黑" FontSize="15" Name="m_Button" Width="156" Height="74" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="63" Canvas.Left="487" Canvas.Top="277" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac2:StyleMarkupExtension Glossy}">
+      <nac1:Button.Resources>
+        <ResourceDictionary>
+          <nacc1:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac1:Button.Resources>
+      <nac1:Button.TextValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.LID].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac1:Button.TextValue>
+      <nac1:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac1:Button.TextDecorations>
+      <nac1:Button.TextIntervalMapper>
+        <nacd2:StringIntervalMapper DefaultValue="报警值设置">
+          <nacd2:StringIntervalMapper.Intervals>
+            <nacd2:StringIntervalList>
+              <nacd2:StringInterval Value="报警值设置" />
+              <nacd2:StringInterval Start="1" End="1" Value="Alarm set" />
+            </nacd2:StringIntervalList>
+          </nacd2:StringIntervalMapper.Intervals>
+        </nacd2:StringIntervalMapper>
+      </nac1:Button.TextIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Show Screen">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Show" ObjectName="ALARMCONFIG" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.41.177.0, Culture=neutral, PublicKeyToken=null" ObjectPath="" ExplicitAuditTrail="False">
+                <nata:ActionMethodInfo.ActionParameterInfo>
+                  <nai:ActionParameterInfoList>
+                    <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                  </nai:ActionParameterInfoList>
+                </nata:ActionMethodInfo.ActionParameterInfo>
+              </nata:ActionMethodInfo>
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac1:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>
